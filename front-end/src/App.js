@@ -1,10 +1,15 @@
 import React from 'react';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
     <>
-      <h1>Naija Plates</h1>
-      <h3>West African Family Meal</h3>
+      <Header />
+      <main>
+        <h1>Naija Plates</h1>
+      </main>
+      <Footer />
     </>
   );
 };
